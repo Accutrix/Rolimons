@@ -25,55 +25,55 @@ classicFedora:UpdateData()
 ```
 ### Properties
 **AssetId**
-The asset-ID of the item
+ The asset-ID of the item
 **Name**
-The name of the item
+ The name of the item
 **AssetTypeId**
-The asset-type-ID for the item
+ The asset-type-ID for the item
 **OriginalPrice**
-The original price that the item was on sale for
+ The original price that the item was on sale for
 **Created**
-The item's creation timestamp
+ The item's creation timestamp
 **Updated**
-The timestamp of the item's last update
+ The timestamp of the item's last update
 **First**
-The first recorded timestamp of the item
+ The first recorded timestamp of the item
 **BestPrice**
-The best price of the item
+ The best price of the item
 **Favorites**
-The amount of favorites of the item
+ The amount of favorites of the item
 **SellerCount**
-The amount of sellers of the item
+ The amount of sellers of the item
 **RecentAveragePrice**
-The recent average price (RAP) of the item
+ The recent average price (RAP) of the item
 **OwnerCount**
-The amount of owners
+ The amount of owners
 **PremiumCount**
-The amount of owners with ROBLOX Premium
+ The amount of owners with ROBLOX Premium
 **Copies**
-The amount of copies of the item
+ The amount of copies of the item
 **DeletedCopies**
-The amount of copies of the item that have been deleted
+ The amount of copies of the item that have been deleted
 **PremiumCopies**
-The amount of copies of the item that are owned by ROBLOX Premium members
+ The amount of copies of the item that are owned by ROBLOX Premium members
 **HoardedCopies** 
-he amount of copies of the item that are hoarded
+ The amount of copies of the item that are hoarded
 **ValueChangeNotes**
-Any notes that the value changer had left when changing the value of the item
+ Any notes that the value changer had left when changing the value of the item
 **Acronym**
-The acronym of the item
+ The acronym of the item
 **Value**
-The value of the item
+ The value of the item
 **Demand**
-The demand of the item
+ The demand of the item
 **Trend**
-The current trend of the item
+ The current trend of the item
 **Projected**
-Whether or not the item is projected
+ Whether or not the item is projected
 **Hyped**
-Whether or not the item is hyped
+ Whether or not the item is hyped
 **Rare**
-Whether or not the item is rare
+ Whether or not the item is rare
 
 ## Player
 The player class is to represent an player/user on the ROBLOX website, with an user-ID. Please note that this class is quite limited at the moment, and inventory APIs will be implemented soon.
@@ -99,19 +99,19 @@ shetletsky:UpdateData()
 ```
 ### Properties
 **UserId**
-The user-ID of the player
+ The user-ID of the player
 **Name**
-The username of the player
+ The username of the player
 **MembershipType**
-The membership-type of the player
+ The membership-type of the player
 **Rank**
-The rank of the player
+ The rank of the player
 **TradeAdCount**
-The amount of trade advertisements posted by the player
+ The amount of trade advertisements posted by the player
 **Wishlist**
-The items that have been wish-listed by the player
+ The items that have been wish-listed by the player
 **NotForTradeList**
-The items that the player does not want to trade
+ The items that the player does not want to trade
 
 ## Game
 The item class is to represent an item on the ROBLOX catalog, with an asset-ID. This includes everything from limited items, to packages.
@@ -134,70 +134,72 @@ murderMystery2:UpdateData()
 ```
 
 **GameId**
-The game-ID of the game
+ The game-ID of the game
 **UniverseId**
-The unverse-ID of the game
+ The unverse-ID of the game
 **DataUpdated**
-The timestamp of when the data was last updated
+ The timestamp of when the data was last updated
 **RootPlaceId**
-The place-ID of the root/main place
+ The place-ID of the root/main place
 **CreatorId**
-The ID of the creator (group-ID if it's a group, and user-ID if it's a user)
+ The ID of the creator (group-ID if it's a group, and user-ID if it's a user)
 **CreatorName**
-The name of the game creator
+ The name of the game creator
 **CreatorType**
-The type of creator
+ The type of creator
 **Created**
-The timestamp of when the game was created
+ The timestamp of when the game was created
 **Updated**
-The timestamp of when the game was last updated
+ The timestamp of when the game was last updated
 **Name**
-The name of the game
+ The name of the game
 **Description**
-The description about the game
+ The description about the game
 **Genre**
-The type of genre the game is
+ The type of genre the game is
 **MaxPlayers**
-The maximum amount of players
+ The maximum amount of players
 **IconUrl**
-The URL of the game's icon
+ The URL of the game's icon
 **ThumbnailUrl**
-The URL of the game's thumbnail
+ The URL of the game's thumbnail
 **IsExperimental**
-Whether or not the game is experimental
-**Price**The price in robux to purchase the game
+ Whether or not the game is experimental
+**Price**
+ The price in robux to purchase the game
 **PlayerCount**
-The amount of players currently playing the game
-**Visits**The total amount of times a player has joined the game
+ The amount of players currently playing the game
+**Visits**
+ The total amount of times a player has joined the game
 **Upvotes**
-The amount of likes/upvotes the game has recieved
+ The amount of likes/upvotes the game has recieved
 **Downvotes**
-The amount of dislikes/downvotes the game has recieved
+ The amount of dislikes/downvotes the game has recieved
 **Favorites**
-The amount of users that have favorited the game
+ The amount of users that have favorited the game
 **ServerCount**
-The amount of servers for the game
+ The amount of servers for the game
 **AverageServerPlayerCount**
-The average amount of players in a server
+ The average amount of players in a server
 **AverageServerPlayerCountStandardDeviation**
-The standard deviation of the average amount of players in a server
+ The standard deviation of the average amount of players in a server
 **MinimumServerPlayers**
-The minimum amount of players in a server
+ The minimum amount of players in a server
 **MaximumServerPlayers**
-The maximum amount of players in a server
+ The maximum amount of players in a server
 **AverageServerPing**
-The average ping of a server
+ The average ping of a server
 **AverageServerPing**
-The standard deviation of the average ping of a server
+ The standard deviation of the average ping of a server
 **MinimumServerPing**
-The minimum ping of a server
+ The minimum ping of a server
 **MaximumServerPing**
-The maximum ping of a server
+ The maximum ping of a server
 **AverageServerFPS**
-The average frames-per-second of a server
+ The average frames-per-second of a server
 **AverageServerFPS**
-The standard deviation of the average frames-per-second of a server
+ The standard deviation of the average frames-per-second of a server
 **MinimumServerFPS**
-The minimum frames-per-second of a server
+ The minimum frames-per-second of a server
 **MaximumServerFPS**
-The maximum frames-per-second of a server
+ The maximum frames-per-second of a server
