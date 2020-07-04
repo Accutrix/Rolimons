@@ -1,18 +1,18 @@
 # Rolimons
 An API for interacting with the [Rolimons](https://www.rolimons.com/) website, with full support for object-oriented programming. This API is useful for retrieving data regarding item value, RAP, and demand.
 
-# Classes
+## Classes
 The Rolimon's API has full support for object-oriented programming, for better updating mechanisms.
 
-## Item
+### Item
 The item class is to represent an item on the ROBLOX catalog, with an asset-ID. This includes everything from limited items, to packages.
-### Constructor
+#### Constructor
 The constructor of the item class creates an item. It takes in only one parameter, which is the item's asset-ID
 ```lua
 local Item = Rolimons.Get("Item")
 local classicFedora = Item.new(1029025)
 ```
-### Methods
+#### Methods
 **GetData**
 Get's the item's data from Rolimons. This method is used internally, and takes no parameters. 
 ```lua
@@ -23,7 +23,7 @@ Get's the item's data from Rolimons, and updates the object. This method can be 
 ```lua
 classicFedora:UpdateData()
 ```
-### Properties
+#### Properties
 **AssetId**
  The asset-ID of the item
 **Name**
@@ -75,9 +75,9 @@ classicFedora:UpdateData()
 **Rare**
  Whether or not the item is rare
 
-## Player
+### Player
 The player class is to represent an player/user on the ROBLOX website, with an user-ID. Please note that this class is quite limited at the moment, and inventory APIs will be implemented soon.
-### Constructor
+#### Constructor
 The constructor of the item class creates an item. It takes in only one parameter, which can be either the player's user-ID or their username.
 ```lua
 local Player = Rolimons.Get("Player")
@@ -86,7 +86,7 @@ local shedletksy = Player.new(261)
 local optimisticSide = Player.new("OptimisticSide")
 ```
 
-### Methods
+#### Methods
 **GetData**
 Get's the item's data from Rolimons. This method is used internally, and takes no parameters. 
 ```lua
@@ -97,7 +97,7 @@ Get's the player's data from Rolimons, and updates the object. This method can b
 ```lua
 shetletsky:UpdateData()
 ```
-### Properties
+#### Properties
 **UserId**
  The user-ID of the player
 **Name**
@@ -113,15 +113,15 @@ shetletsky:UpdateData()
 **NotForTradeList**
  The items that the player does not want to trade
 
-## Game
+### Game
 The item class is to represent an item on the ROBLOX catalog, with an asset-ID. This includes everything from limited items, to packages.
-### Constructor
+#### Constructor
 The constructor of the item class creates an item. It takes in only one parameter, which is the game's game-ID
 ```lua
 local Game = Rolimons.Get("Game")
 local murderMystery2 = Game.new(142823291)
 ```
-### Methods
+#### Methods
 **GetData**
 Get's the game's data from Rolimons. This method is used internally, and takes no parameters. 
 ```lua
