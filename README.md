@@ -24,55 +24,55 @@ Get's the item's data from Rolimons, and updates the object. This method can be 
 classicFedora:UpdateData()
 ```
 #### Properties
-**AssetId**
+ - **AssetId**
  The asset-ID of the item
-**Name**
+ - **Name**
  The name of the item
-**AssetTypeId**
+  - **AssetTypeId**
  The asset-type-ID for the item
-**OriginalPrice**
+ - **OriginalPrice**
  The original price that the item was on sale for
-**Created**
+ - **Created**
  The item's creation timestamp
-**Updated**
+ - **Updated**
  The timestamp of the item's last update
-**First**
+ - **First**
  The first recorded timestamp of the item
-**BestPrice**
+ - **BestPrice**
  The best price of the item
-**Favorites**
+ - **Favorites**
  The amount of favorites of the item
-**SellerCount**
+ - **SellerCount**
  The amount of sellers of the item
-**RecentAveragePrice**
+ - **RecentAveragePrice**
  The recent average price (RAP) of the item
-**OwnerCount**
+ - **OwnerCount**
  The amount of owners
-**PremiumCount**
+ - **PremiumCount**
  The amount of owners with ROBLOX Premium
-**Copies**
+ - **Copies**
  The amount of copies of the item
-**DeletedCopies**
+ - **DeletedCopies**
  The amount of copies of the item that have been deleted
-**PremiumCopies**
+ - **PremiumCopies**
  The amount of copies of the item that are owned by ROBLOX Premium members
-**HoardedCopies** 
+ - **HoardedCopies** 
  The amount of copies of the item that are hoarded
-**ValueChangeNotes**
+ - **ValueChangeNotes**
  Any notes that the value changer had left when changing the value of the item
-**Acronym**
+ - **Acronym**
  The acronym of the item
-**Value**
+ - **Value**
  The value of the item
-**Demand**
+ - **Demand**
  The demand of the item
-**Trend**
+ - **Trend**
  The current trend of the item
-**Projected**
+ - **Projected**
  Whether or not the item is projected
-**Hyped**
+ - **Hyped**
  Whether or not the item is hyped
-**Rare**
+ - **Rare**
  Whether or not the item is rare
 
 ### Player
@@ -98,19 +98,19 @@ Get's the player's data from Rolimons, and updates the object. This method can b
 shetletsky:UpdateData()
 ```
 #### Properties
-**UserId**
+ - **UserId**
  The user-ID of the player
-**Name**
+ - **Name**
  The username of the player
-**MembershipType**
+ - **MembershipType**
  The membership-type of the player
-**Rank**
+ - **Rank**
  The rank of the player
-**TradeAdCount**
+ - **TradeAdCount**
  The amount of trade advertisements posted by the player
-**Wishlist**
+ - **Wishlist**
  The items that have been wish-listed by the player
-**NotForTradeList**
+ - **NotForTradeList**
  The items that the player does not want to trade
 
 ### Game
@@ -133,73 +133,73 @@ Get's the game's data from Rolimons, and updates the object. This method can be 
 murderMystery2:UpdateData()
 ```
 
-**GameId**
+ - **GameId**
  The game-ID of the game
-**UniverseId**
+ - **UniverseId**
  The unverse-ID of the game
 **DataUpdated**
  The timestamp of when the data was last updated
-**RootPlaceId**
+ - **RootPlaceId**
  The place-ID of the root/main place
-**CreatorId**
+ - **CreatorId**
  The ID of the creator (group-ID if it's a group, and user-ID if it's a user)
-**CreatorName**
+ - **CreatorName**
  The name of the game creator
-**CreatorType**
+ - **CreatorType**
  The type of creator
-**Created**
+ - **Created**
  The timestamp of when the game was created
-**Updated**
+ - **Updated**
  The timestamp of when the game was last updated
-**Name**
+ - **Name**
  The name of the game
-**Description**
+ - **Description**
  The description about the game
-**Genre**
+ - **Genre**
  The type of genre the game is
-**MaxPlayers**
+ - **MaxPlayers**
  The maximum amount of players
-**IconUrl**
+ - **IconUrl**
  The URL of the game's icon
-**ThumbnailUrl**
+ - **ThumbnailUrl**
  The URL of the game's thumbnail
-**IsExperimental**
+ - **IsExperimental**
  Whether or not the game is experimental
-**Price**
+ - **Price**
  The price in robux to purchase the game
-**PlayerCount**
+ - **PlayerCount**
  The amount of players currently playing the game
-**Visits**
+ - **Visits**
  The total amount of times a player has joined the game
-**Upvotes**
+ - **Upvotes**
  The amount of likes/upvotes the game has recieved
-**Downvotes**
+ - **Downvotes**
  The amount of dislikes/downvotes the game has recieved
-**Favorites**
+ - **Favorites**
  The amount of users that have favorited the game
-**ServerCount**
+ - **ServerCount**
  The amount of servers for the game
-**AverageServerPlayerCount**
+ - **AverageServerPlayerCount**
  The average amount of players in a server
-**AverageServerPlayerCountStandardDeviation**
+ - **AverageServerPlayerCountStandardDeviation**
  The standard deviation of the average amount of players in a server
-**MinimumServerPlayers**
+ - **MinimumServerPlayers**
  The minimum amount of players in a server
-**MaximumServerPlayers**
+ - **MaximumServerPlayers**
  The maximum amount of players in a server
-**AverageServerPing**
+ - **AverageServerPing**
  The average ping of a server
-**AverageServerPing**
+ - **AverageServerPing**
  The standard deviation of the average ping of a server
-**MinimumServerPing**
+ - **MinimumServerPing**
  The minimum ping of a server
-**MaximumServerPing**
+ - **MaximumServerPing**
  The maximum ping of a server
-**AverageServerFPS**
+ - **AverageServerFPS**
  The average frames-per-second of a server
-**AverageServerFPS**
+ - **AverageServerFPS**
  The standard deviation of the average frames-per-second of a server
-**MinimumServerFPS**
+ - **MinimumServerFPS**
  The minimum frames-per-second of a server
-**MaximumServerFPS**
+ - **MaximumServerFPS**
  The maximum frames-per-second of a server
