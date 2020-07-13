@@ -2,11 +2,11 @@
 
 local ItemTrend = {
 
-	[0] = "Lowering";
-	[1] = "Unstable";
-	[2] = "Stable";
-	[3] = "Raising";
-	[4] = "Fluctuating";
+	Lowering = 0;
+	Unstable = 1;
+	Stable" = 2;
+	Raising = 3;
+	Fluctuating = 4;
 	
 }
 
