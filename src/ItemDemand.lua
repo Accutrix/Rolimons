@@ -1,14 +1,14 @@
 -- OptimisticSide
 
-local ItemTrend = {
+local ItemDemand = {
 
-	Lowering = 0;
-	Unstable = 1;
-	Stable" = 2;
-	Raising = 3;
-	Fluctuating = 4;
+	Terrible = 0;
+	Low = 1;
+	Normal = 2;
+	High = 3;
+	Amazing = 4;
 	
 }
 
 
-return ItemTrend
+return ItemDemand
