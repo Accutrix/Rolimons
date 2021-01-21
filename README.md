@@ -137,7 +137,7 @@ murderMystery2:UpdateData()
  The game-ID of the game
  - **UniverseId**
  The unverse-ID of the game
-**DataUpdated**
+ - **DataUpdated**
  The timestamp of when the data was last updated
  - **RootPlaceId**
  The place-ID of the root/main place
